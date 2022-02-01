@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@incluissue/ng-lib-bar": ["libs/ng-lib-bar/src/index.ts"],
+      "@incluissue/ng-lib-foo": ["libs/ng-lib-foo/src/index.ts"],
+      "@incluissue/shared/storybook": ["libs/shared/storybook/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
